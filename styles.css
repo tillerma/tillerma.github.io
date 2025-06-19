@@ -1,7 +1,7 @@
 body {
     background-color: blanchedalmond;
 }
-div{
+div.header{
     height: 30%;
     width: 100%;
     background-image: url('clouds.jpeg');
@@ -9,7 +9,7 @@ div{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-h2 {
+h2.rotatingBar{
     height: 10%;
     width: 100%;
     background-color:darkgreen;
