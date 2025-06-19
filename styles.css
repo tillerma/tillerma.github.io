@@ -1,8 +1,11 @@
 body {
     background-color:cornflowerblue;
 }
-h1 {
-    background-color:blanchedalmond;
+div{
+    background-image: url('clouds.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 h2 {
     background-color:darkgreen;
