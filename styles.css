@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
 body {
     background-color: blanchedalmond;
     margin: 0;
@@ -6,9 +12,9 @@ div.header{
     height: 30vh;
     width: 100vw;
     background-image: url('clouds.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
 }
 h2.rotatingBar{
     height: 10vh;
@@ -21,7 +27,4 @@ nav.navBar{
     align-self: center;
     background-color:cadetblue;
     border-radius: 25px;
-}
-li{
-    display: inline;
 }
