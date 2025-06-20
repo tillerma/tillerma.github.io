@@ -1,5 +1,7 @@
 body {
     background-color: blanchedalmond;
+    height: 100%;
+    width: 100%;
 }
 div.header{
     height: 30%;
@@ -12,5 +14,15 @@ div.header{
 h2.rotatingBar{
     height: 10%;
     width: 100%;
-    background-color:darkgreen;
+    background-color:brown;
+}
+nav.navBar{
+    height: 10%;
+    width: 90%;
+    align-self: center;
+    background-color:cadetblue;
+    border-radius: 25px;
+}
+li{
+    display: inline;
 }
