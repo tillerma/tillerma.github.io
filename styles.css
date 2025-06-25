@@ -32,6 +32,13 @@ div.header{
 
 }
 
+img.RedGirl{
+    height: 15vh;
+    float: right;
+    float: bottom;
+    padding-right: 15vw;
+}
+
 h1{
     max-width: 8vh;
     color:brown;
