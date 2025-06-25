@@ -25,9 +25,9 @@ img.LinkedIn{
 }
 
 div.header{
-    height: 30vh;
+    height: 50vh;
     width: 100vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-left: 5vw;
 
 }
@@ -35,7 +35,7 @@ div.header{
 h1{
     max-width: 8vh;
     color:brown;
-    font-size: 60px;
+    font-size: 100px;
     text-align: left;
     
 }
