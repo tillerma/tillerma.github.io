@@ -15,13 +15,13 @@ div.topBar{
 }
 
 img.GitHub{
-    height: 18px;
+    height: 5vh;
     float: right;
     padding-right: 10px;
 }
 
 img.LinkedIn{
-    height: 15px;
+    height: 5vh;
 }
 
 div.header{
@@ -33,10 +33,10 @@ div.header{
 }
 
 img.RedGirl{
-    height: 15vh;
+    height: 10vh;
     float: right;
-    float: bottom;
     padding-right: 15vw;
+    padding-top: 60vh;
 }
 
 div.SkinnyBars{
@@ -52,7 +52,7 @@ h1{
 }
 
 h2.rotatingBar{
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
     background-color:brown;
     color:antiquewhite;
@@ -78,7 +78,7 @@ li {
 }
 
 a {
-    font-size: 20px;
+    font-size: 30px;
     color:#1c401f;
     text-decoration: none;;
 }
