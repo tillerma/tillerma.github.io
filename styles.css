@@ -7,7 +7,6 @@
 
 body {
     background-color:antiquewhite;
-    margin: 0;
 }
 
 div.topBar{
@@ -18,4 +17,57 @@ div.topBar{
 img.GitHub{
     height: 18px;
     float: right;
-    padding-right
+    padding-right: 10px;
+}
+
+img.LinkedIn{
+    height: 15px;
+}
+
+div.header{
+    height: 30vh;
+    width: 100vw;
+    padding-top: 5vh;
+    padding-left: 5vw;
+
+}
+
+h1{
+    max-width: 8vh;
+    color:brown;
+    font-size: 60px;
+    text-align: left;
+    
+}
+
+h2.rotatingBar{
+    height: 6vh;
+    width: 100vw;
+    background-color:brown;
+    color:antiquewhite;
+    padding-top: 1vh;
+    text-align: center;
+    
+}
+
+nav.navBar{
+    height: 10vh;
+    width: 100vw;
+    align-self: center;
+    padding-top: 10px;
+    border-color: #1c401f;
+    border-width: 2px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 2%;
+}
+
+a {
+    font-size: 20px;
+    color:#1c401f;
+    text-decoration: none;;
+}
