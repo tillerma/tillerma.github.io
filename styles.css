@@ -25,7 +25,7 @@ img.LinkedIn{
 }
 
 div.header{
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     padding-top: 10vh;
     padding-left: 5vw;
@@ -39,6 +39,10 @@ img.RedGirl{
     padding-right: 15vw;
 }
 
+div.SkinnyBars{
+    height: 30vh;
+}
+
 h1{
     max-width: 8vh;
     color:brown;
@@ -48,7 +52,7 @@ h1{
 }
 
 h2.rotatingBar{
-    height: 6vh;
+    height: 20vh;
     width: 100vw;
     background-color:brown;
     color:antiquewhite;
