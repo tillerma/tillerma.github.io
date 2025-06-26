@@ -11,7 +11,7 @@ body {
 
 div.topBar{
     height: 5vh;
-    padding-top: 5px;;
+    padding-top: 5px;
 }
 
 img.GitHub{
@@ -27,20 +27,23 @@ img.LinkedIn{
 div.header{
     height: 70vh;
     width: 100vw;
-    padding-top: 10vh;
-    padding-left: 5vw;
-
 }
 
 img.RedGirl{
-    height: 10vh;
+    height: 15vh;
     float: right;
     padding-right: 15vw;
-    padding-top: 60vh;
+}
+
+img.Computer{
+    height: 10vh;
+    float: right;
+
 }
 
 div.SkinnyBars{
     height: 30vh;
+    
 }
 
 h1{
@@ -48,7 +51,8 @@ h1{
     color:brown;
     font-size: 100px;
     text-align: left;
-    
+    padding-top: 10vh;
+    padding-left: 5vw;
 }
 
 h2.rotatingBar{
