@@ -8,6 +8,8 @@
 
 /* Body */
 body {
+    width: 100%;
+    border: 5px solid black;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,45 +21,56 @@ body {
 }
 
 /* Header */
-header {
-    background-image: url("HeaderImage.heic");
+.header-container {
+    width: 100%;
+    background-image: url("HeaderImage.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    justify-content: center;   /* horizontal center */
+    align-items: flex-start;
     color: #fff;
-    padding: 12rem 12rem;
+    padding: 15rem 0;
 }
 
 .name {
+    width: 100%;
     text-align: center;
-    background-color: #3e531b;
-    width: max-content;
-    padding: 1rem;
-}
-
-.full-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 23, 7);
+    height: 12vh;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
 }
 
-.header-card-ext {
-    background-color: (237, 218, 170, 1);
+.name h1 {
+    font-family: 'Playfair Display', serif;
+    color:#fff;
+    font-size: 8vh;
+    font-weight: 500;
+    letter-spacing: 9px;
+}
+
+.card-container {
+    margin: 0 auto;
+    width: 30vw;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
-    margin: 0;
+    justify-content: center;
+    background-color:blanchedalmond;
+    border: 3px solid white;
 }
 
 .header-card-int {
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
-    border-color: rgb(88, 0, 0);
+    gap: 1rem;
+    border: 5px solid maroon;
 }
 
 .header-card-text {
@@ -65,24 +78,17 @@ header {
     padding: 1rem;
 }
 
-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 6rem;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-}
-
-header p {
+.header-card-text p {
     margin-top: .5rem;
     font-size: 1.1rem;
     font-weight: 700;
-    color: white;
+    color: black;
     max-width: 500px;
+    border-bottom: 1px solid black;
 }
 
 .profile-image {
-    width: 200px;
-    height: 250px;
+    width: 10vw;
     border-radius: 10%;
     object-fit: cover;
     border-bottom: 10px;
@@ -121,8 +127,8 @@ nav a:hover {
 
 /* Main Content */
 main {
-    max-width: 900px;
-    margin: 2rem auto;
+    max-width: 80vw;
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
@@ -161,6 +167,7 @@ section h2 {
     border-radius: 6px;
     margin-top: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 5px solid maroon;
 }
 
 .project h3 {
