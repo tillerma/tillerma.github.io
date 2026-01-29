@@ -10,7 +10,6 @@
 /* Body */
 body {
     width: 100%;
-    border: 5px solid black;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -26,9 +25,11 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     background-color: rgb(34, 23, 7);
-    padding: 0 15px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -37,13 +38,13 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .name h1 {
     font-family: 'Playfair Display', serif;
     color:#fff;
-    font-size: 9vh;
+    font-size: 10vh;
     font-weight: 500;
     letter-spacing: 5px;
 }
@@ -58,7 +59,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
-    padding: 15rem 0;
+    padding: 12rem 0;
     border: 15px solid rgb(34, 23, 7);
 }
 
@@ -89,25 +90,32 @@ header {
 }
 
 .card-text h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
+    letter-spacing: .1rem;
     font-family: 'Playfair Display', serif;
     color: black;
     border-bottom: 1px solid black;
 }
 
-.card-text p {
+.card-text-int {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.card-text-int p {
     margin-top: .5rem;
-    font-size: 1.1rem;
+    font-size: .6rem;
     font-weight: 700;
     color: black;
     max-width: 500px;
-    border-bottom: 1px solid black;
 }
 
 .profile-image {
-    height: 10vw;
-    border-radius: 50%;
+    height: 30vh;
+    width: 15vw;
     object-fit: cover;
 }
 
@@ -161,6 +169,13 @@ section h2 {
 }
 
 /* Skills */
+.skill-title {
+    color: #1f2933;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+}
+
 .skills-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -169,12 +184,13 @@ section h2 {
 }
 
 .skills-list li {
-    background: burlywood;
-    padding: 0.6rem;
+    background: white;
+    padding: 0.4rem;
     font-weight: bold;
+    font-size: .8rem;
     text-align: center;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid maroon;
     color: #1f2933;
     list-style: none;
 }
@@ -199,4 +215,14 @@ footer {
     padding: 1rem;
     background-color: #1f2933;
     color: #fff;
+}
+
+.LinkedIn{
+    width: 150px;
+    height: 40px;
+}
+
+.GitHub{
+    width: 40px;
+    height: 40px;
 }
