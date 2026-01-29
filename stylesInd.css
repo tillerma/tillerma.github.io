@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    width: 100%
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
@@ -12,7 +13,6 @@ body {
     border: 5px solid black;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     margin: 0;
     padding: 0;
     background-color:antiquewhite;
@@ -21,35 +21,45 @@ body {
 }
 
 /* Header */
-.header-container {
+
+header {
     width: 100%;
-    background-image: url("HeaderImage.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    justify-content: center;   /* horizontal center */
-    align-items: flex-start;
-    color: #fff;
-    padding: 15rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 23, 7);
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .name {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(34, 23, 7);
-    height: 12vh;
     margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .name h1 {
     font-family: 'Playfair Display', serif;
     color:#fff;
-    font-size: 8vh;
+    font-size: 9vh;
     font-weight: 500;
-    letter-spacing: 9px;
+    letter-spacing: 5px;
+}
+
+.image-container {
+    width: 100%;
+    background-image: url("HeaderImage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 15rem 0;
+    border: 15px solid rgb(34, 23, 7);
 }
 
 .card-container {
@@ -63,22 +73,30 @@ body {
     border: 3px solid white;
 }
 
-.header-card-int {
+.card-int{
     background-color: blanchedalmond;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    border: 5px solid maroon;
+    border: 5px solid  rgb(34, 23, 7);
 }
 
-.header-card-text {
+.card-text {
     text-align: center;
     padding: 1rem;
 }
 
-.header-card-text p {
+.card-text h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.card-text p {
     margin-top: .5rem;
     font-size: 1.1rem;
     font-weight: 700;
@@ -88,11 +106,9 @@ body {
 }
 
 .profile-image {
-    width: 10vw;
-    border-radius: 10%;
+    height: 10vw;
+    border-radius: 50%;
     object-fit: cover;
-    border-bottom: 10px;
-    border: 4px solid antiquewhite;
 }
 
 /* Navigation */
@@ -153,10 +169,13 @@ section h2 {
 }
 
 .skills-list li {
-    background: #e5e7eb;
+    background: burlywood;
     padding: 0.6rem;
+    font-weight: bold;
     text-align: center;
     border-radius: 5px;
+    border: 2px solid white;
+    color: #1f2933;
     list-style: none;
 }
 
